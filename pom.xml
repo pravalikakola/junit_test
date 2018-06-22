@@ -9,17 +9,16 @@
 	<name>Mathematical Operations</name>
 
 	<properties>
-		<jacoco.version>0.7.5.201505241946</jacoco.version>
 		<junit.version>4.12</junit.version>
 	</properties>
 
 	<dependencies>
 		<dependency>
-    <groupId>junit</groupId>
-    <artifactId>junit</artifactId>
-    <version>4.12</version>
-    <scope>test</scope>
-</dependency>
+                           <groupId>junit</groupId>
+                           <artifactId>junit</artifactId>
+                           <version>4.12</version>
+    
+                 </dependency>
 	</dependencies>
 	<build>
 		<plugins>
@@ -42,14 +41,7 @@
                   <skipTests>${skip.tests}</skipTests>    
                 </configuration>
                 <version>2.10</version>
-            <plugin>           
-            <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>4.0</version>    
-        </dependency>
-			</plugin>
-			
+           
 		</plugins>
 	</build>
 </project>
